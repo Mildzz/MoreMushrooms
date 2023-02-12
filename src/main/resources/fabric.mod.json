@@ -3,9 +3,9 @@
 	"id": "more-mushrooms",
 	"version": "${version}",
 	"name": "More Mushrooms",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "Adds more mushroom variants",
 	"authors": [
-		"Me!"
+		"Mildzz, Moss"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
@@ -17,9 +17,6 @@
 	"entrypoints": {
 		"main": [
 			"net.mildzz.moremushrooms.MoreMushrooms"
-		],
-		"client": [
-			"net.mildzz.moremushrooms.MoreMushroomsClient"
 		],
 		"fabric-datagen": [
 			"net.mildzz.moremushrooms.MoreMushroomsDataGenerator"

@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "more-mushrooms:block/inky_cap"
+  },
+  "alpha": true
+}
