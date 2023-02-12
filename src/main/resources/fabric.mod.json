@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "more-mushrooms",
+	"version": "${version}",
+	"name": "More Mushrooms",
+	"description": "This is an example description! Tell everyone what your mod is about!",
+	"authors": [
+		"Me!"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/more-mushrooms/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.mildzz.moremushrooms.MoreMushrooms"
+		],
+		"client": [
+			"net.mildzz.moremushrooms.MoreMushroomsClient"
+		],
+		"fabric-datagen": [
+			"net.mildzz.moremushrooms.MoreMushroomsDataGenerator"
+		]
+	},
+	"mixins": [
+		"more-mushrooms.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.14.14",
+		"minecraft": "~1.19.3",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
