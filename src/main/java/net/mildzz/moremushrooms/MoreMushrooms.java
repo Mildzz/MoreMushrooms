@@ -19,7 +19,6 @@ public class MoreMushrooms implements ModInitializer {
 		ModBlocks.registerModBlocks();
 		Block inkyCap = ModBlocks.INKY_CAP;
 		Block shaggyMane = ModBlocks.PENNY_BUN;
-		BlockRenderLayerMap.INSTANCE.putBlock(inkyCap, RenderLayer.getCutout());
-		BlockRenderLayerMap.INSTANCE.putBlock(shaggyMane, RenderLayer.getCutout());
+		BlockRenderLayerMap.INSTANCE.putBlocks(RenderLayer.getCutout(), inkyCap, shaggyMane);
 	}
 }
