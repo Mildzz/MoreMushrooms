@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "more-mushrooms:block/blue_honey_agaric"
+  },
+  "alpha": true
+}

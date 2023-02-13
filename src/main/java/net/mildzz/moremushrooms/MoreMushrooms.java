@@ -19,6 +19,13 @@ public class MoreMushrooms implements ModInitializer {
 		ModBlocks.registerModBlocks();
 		Block inkyCap = ModBlocks.INKY_CAP;
 		Block shaggyMane = ModBlocks.PENNY_BUN;
-		BlockRenderLayerMap.INSTANCE.putBlocks(RenderLayer.getCutout(), inkyCap, shaggyMane);
+		Block amanitaCaesarea = ModBlocks.AMANITA_CAESAREA;
+		Block blueHoneyAgaric = ModBlocks.BLUE_HONEY_AGARIC;
+		Block shiitake = ModBlocks.SHIITAKE;
+		Block honeyFungus = ModBlocks.HONEY_FUNGUS;
+		Block shimeji = ModBlocks.SHIMEJI;
+		Block champignon = ModBlocks.CHAMPIGNON;
+		Block maitake = ModBlocks.MAITAKE;
+		BlockRenderLayerMap.INSTANCE.putBlocks(RenderLayer.getCutout(), inkyCap, shaggyMane, amanitaCaesarea, blueHoneyAgaric, shiitake, honeyFungus, shimeji, champignon, maitake);
 	}
 }
