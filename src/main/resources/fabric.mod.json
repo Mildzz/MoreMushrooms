@@ -8,8 +8,8 @@
 		"Mildzz, Moss"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "https://www.curseforge.com/minecraft/mc-mods/moremushrooms",
+		"sources": "https://github.com/Mildzz/MoreMushrooms"
 	},
 	"license": "MIT",
 	"icon": "assets/more-mushrooms/icon.png",
@@ -17,16 +17,13 @@
 	"entrypoints": {
 		"main": [
 			"net.mildzz.moremushrooms.MoreMushrooms"
-		],
-		"fabric-datagen": [
-			"net.mildzz.moremushrooms.MoreMushroomsDataGenerator"
 		]
 	},
 	"mixins": [
 		"more-mushrooms.mixins.json"
 	],
 	"depends": {
-		"fabricloader": ">=0.14.14",
+		"fabricloader": ">=0.14.13",
 		"minecraft": "~1.19.3",
 		"java": ">=17",
 		"fabric-api": "*"

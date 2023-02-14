@@ -36,6 +36,7 @@ public class ModBlocks {
     private static Block registerMushroom(String name, Block block, ItemGroup group) {
         registerBlockItem(name, block, group);
         return Registry.register(Registries.BLOCK, new Identifier(MoreMushrooms.MOD_ID, name), block);
+
     }
     private static void registerBlockItem(String name, Block block, ItemGroup group) {
         Item item = Registry.register(Registries.ITEM, new Identifier(MoreMushrooms.MOD_ID, name),
