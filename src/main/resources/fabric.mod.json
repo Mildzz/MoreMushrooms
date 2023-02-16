@@ -8,8 +8,9 @@
 		"Mildzz, Moss"
 	],
 	"contact": {
-		"homepage": "https://www.curseforge.com/minecraft/mc-mods/moremushrooms",
-		"sources": "https://github.com/Mildzz/MoreMushrooms"
+		"homepage": "https://modrinth.com/mod/moremushrooms",
+		"sources": "https://github.com/Mildzz/MoreMushrooms",
+		"issues": "https://github.com/Mildzz/MoreMushrooms/issues"
 	},
 	"license": "MIT",
 	"icon": "assets/more-mushrooms/icon.png",
@@ -19,9 +20,6 @@
 			"net.mildzz.moremushrooms.MoreMushrooms"
 		]
 	},
-	"mixins": [
-		"more-mushrooms.mixins.json"
-	],
 	"depends": {
 		"fabricloader": ">=0.14.13",
 		"minecraft": "~1.19.3",
