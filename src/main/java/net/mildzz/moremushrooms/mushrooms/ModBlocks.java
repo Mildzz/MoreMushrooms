@@ -15,28 +15,27 @@ import net.minecraft.util.Identifier;
 
 public class ModBlocks {
     public static final Block INKY_CAP = registerMushroom("inky_cap",
-            new Block(FabricBlockSettings.copy(Blocks.BROWN_MUSHROOM)), ModItemGroup.MUSHROOMS);
+            new Mushrooms(FabricBlockSettings.copy(Blocks.BROWN_MUSHROOM)), ModItemGroup.MUSHROOMS);
     public static final Block PENNY_BUN = registerMushroom("penny_bun",
-            new Block(FabricBlockSettings.copy(Blocks.BROWN_MUSHROOM)), ModItemGroup.MUSHROOMS);
+            new Mushrooms(FabricBlockSettings.copy(Blocks.BROWN_MUSHROOM)), ModItemGroup.MUSHROOMS);
     public static final Block AMANITA_CAESAREA = registerMushroom("amanita_caesarea",
-            new Block(FabricBlockSettings.copy(Blocks.BROWN_MUSHROOM)), ModItemGroup.MUSHROOMS);
+            new Mushrooms(FabricBlockSettings.copy(Blocks.BROWN_MUSHROOM)), ModItemGroup.MUSHROOMS);
     public static final Block BLUE_HONEY_AGARIC = registerMushroom("blue_honey_agaric",
-            new Block(FabricBlockSettings.copy(Blocks.BROWN_MUSHROOM)), ModItemGroup.MUSHROOMS);
+            new Mushrooms(FabricBlockSettings.copy(Blocks.BROWN_MUSHROOM)), ModItemGroup.MUSHROOMS);
     public static final Block SHIITAKE = registerMushroom("shiitake",
-            new Block(FabricBlockSettings.copy(Blocks.BROWN_MUSHROOM)), ModItemGroup.MUSHROOMS);
+            new Mushrooms(FabricBlockSettings.copy(Blocks.BROWN_MUSHROOM)), ModItemGroup.MUSHROOMS);
     public static final Block HONEY_FUNGUS = registerMushroom("honey_fungus",
-            new Block(FabricBlockSettings.copy(Blocks.BROWN_MUSHROOM)), ModItemGroup.MUSHROOMS);
+            new Mushrooms(FabricBlockSettings.copy(Blocks.BROWN_MUSHROOM)), ModItemGroup.MUSHROOMS);
     public static final Block SHIMEJI = registerMushroom("shimeji",
-            new Block(FabricBlockSettings.copy(Blocks.BROWN_MUSHROOM)), ModItemGroup.MUSHROOMS);
+            new Mushrooms(FabricBlockSettings.copy(Blocks.BROWN_MUSHROOM)), ModItemGroup.MUSHROOMS);
     public static final Block CHAMPIGNON = registerMushroom("champignon",
-            new Block(FabricBlockSettings.copy(Blocks.BROWN_MUSHROOM)), ModItemGroup.MUSHROOMS);
+            new Mushrooms(FabricBlockSettings.copy(Blocks.BROWN_MUSHROOM)), ModItemGroup.MUSHROOMS);
     public static final Block MAITAKE = registerMushroom("maitake",
-            new Block(FabricBlockSettings.copy(Blocks.BROWN_MUSHROOM)), ModItemGroup.MUSHROOMS);
+            new Mushrooms(FabricBlockSettings.copy(Blocks.BROWN_MUSHROOM)), ModItemGroup.MUSHROOMS);
 
     private static Block registerMushroom(String name, Block block, ItemGroup group) {
         registerBlockItem(name, block, group);
         return Registry.register(Registries.BLOCK, new Identifier(MoreMushrooms.MOD_ID, name), block);
-
     }
     private static void registerBlockItem(String name, Block block, ItemGroup group) {
         Item item = Registry.register(Registries.ITEM, new Identifier(MoreMushrooms.MOD_ID, name),
