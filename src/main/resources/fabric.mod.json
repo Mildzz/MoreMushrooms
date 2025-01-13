@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "templatemod",
+	"version": "${version}",
+	"name": "Template Mod",
+	"description": "This is the epic Mildzz mod",
+	"authors": [
+		"Mildzz"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/templatemod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.mildzz.templatemod.TemplateMod"
+		],
+		"client": [
+			"net.mildzz.templatemod.TemplateModClient"
+		],
+		"fabric-datagen": [
+			"net.mildzz.templatemod.TemplateModDataGenerator"
+		]
+	},
+	"mixins": [
+		"templatemod.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.9",
+		"minecraft": "~1.20.4",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

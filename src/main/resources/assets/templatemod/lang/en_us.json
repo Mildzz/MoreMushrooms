@@ -1,0 +1,13 @@
+{
+  "item.templatemod.mushroom": "Mushroom",
+
+  "block.templatemod.penny_bun": "Penny Bun",
+  "block.templatemod.penny_bun_block": "Penny Bun Block",
+  "block.templatemod.inky_cap": "Inky Cap",
+  "block.templatemod.inky_cap_block": "Inky Cap Block",
+  "block.templatemod.amethyst_deceiver": "Amethyst Deceiver",
+  "block.templatemod.amethyst_deceiver_block": "Amethyst Deceiver Block",
+  "block.templatemod.amethyst_deceiver_stem": "Amethyst Deceiver Stem",
+
+  "itemgroup.mushroom": "Mushrooms"
+}
