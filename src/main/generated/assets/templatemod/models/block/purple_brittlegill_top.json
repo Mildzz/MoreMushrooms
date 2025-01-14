@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/template_single_face",
+  "textures": {
+    "texture": "templatemod:block/purple_brittlegill_top"
+  }
+}

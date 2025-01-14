@@ -17,5 +17,11 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addPottedPlantDrops(ModBlocks.POTTED_INKY_CAP);
         addDrop(ModBlocks.AMETHYST_DECEIVER);
         addPottedPlantDrops(ModBlocks.POTTED_AMETHYST_DECEIVER);
+        addDrop(ModBlocks.BLUE_PINKGILL);
+        addPottedPlantDrops(ModBlocks.POTTED_BLUE_PINKGILL);
+        addDrop(ModBlocks.WINE_CAP);
+        addPottedPlantDrops(ModBlocks.POTTED_WINE_CAP);
+        addDrop(ModBlocks.PURPLE_BRITTLEGILL);
+        addPottedPlantDrops(ModBlocks.POTTED_PURPLE_BRITTLEGILL);
     }
 }

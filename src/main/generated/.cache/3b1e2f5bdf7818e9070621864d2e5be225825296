@@ -1,7 +1,13 @@
-// 1.20.4	2025-01-12T21:25:19.3374342	Template Mod/Block Loot Tables
-2d9f09e2a7aaf5ec5bd516a5119faae884a2ec26 data\templatemod\loot_tables\blocks\inky_cap.json
+// 1.20.4	2025-01-13T22:35:09.8372209	Template Mod/Block Loot Tables
 1f0a06b606d83522c91d561f652a033a33186856 data\templatemod\loot_tables\blocks\potted_inky_cap.json
+90e4daf3116585bea1bb722152c592cacaee788e data\templatemod\loot_tables\blocks\purple_brittlegill.json
 3f254a250129537542b9463f23278612d6815160 data\templatemod\loot_tables\blocks\amethyst_deceiver.json
+c495a45892cd0e2b3cb1376ce3484f49e02099c1 data\templatemod\loot_tables\blocks\potted_blue_pinkgill.json
+1f0a06b606d83522c91d561f652a033a33186856 data\templatemod\loot_tables\blocks\potted_wine_cap.json
+951fdc3d48f82653dc26f0e9603ed17aacf29bba data\templatemod\loot_tables\blocks\potted_purple_brittlegill.json
+07d239a7bb04551c115051f7c3ef6441dac1b9dd data\templatemod\loot_tables\blocks\penny_bun.json
+2d9f09e2a7aaf5ec5bd516a5119faae884a2ec26 data\templatemod\loot_tables\blocks\inky_cap.json
+fad41225743e5e11f5c625d5abd6b6d288d7c9f5 data\templatemod\loot_tables\blocks\wine_cap.json
 68b19ed690d763bb80a173d5af2f881f980f9b2c data\templatemod\loot_tables\blocks\potted_amethyst_deceiver.json
 a3e7a73f532d3e707c17941aaf74d476081d5282 data\templatemod\loot_tables\blocks\potted_penny_bun.json
-07d239a7bb04551c115051f7c3ef6441dac1b9dd data\templatemod\loot_tables\blocks\penny_bun.json
+2d1cf83d7b17ba8d434a53017d9bf40887d9cc70 data\templatemod\loot_tables\blocks\blue_pinkgill.json

@@ -25,6 +25,9 @@ public class ModPlacedFeatures {
     public static final RegistryKey<PlacedFeature> PENNY_BUN_PLACED_KEY = registerKey("penny_bun_placed");
     public static final RegistryKey<PlacedFeature> INKY_CAP_PLACED_KEY = registerKey("inky_cap_placed");
     public static final RegistryKey<PlacedFeature> AMETHYST_DECEIVER_PLACED_KEY = registerKey("amethyst_deceiver_placed");
+    public static final RegistryKey<PlacedFeature> BLUE_PINKGILL_PLACED_KEY = registerKey("blue_pinkgill_placed");
+    public static final RegistryKey<PlacedFeature> WINE_CAP_PLACED_KEY = registerKey("wine_cap_placed");
+    public static final RegistryKey<PlacedFeature> PURPLE_BRITTLEGILL_PLACED_KEY = registerKey("purple_brittlegill_placed");
 
     public static void boostrap(Registerable<PlacedFeature> context) {
         var configuredFeatureRegistryEntryLookup = context.getRegistryLookup(RegistryKeys.CONFIGURED_FEATURE);
@@ -45,6 +48,12 @@ public class ModPlacedFeatures {
                 mushroomModifiers(256, null));
         register(context, AMETHYST_DECEIVER_PLACED_KEY, configuredFeatureRegistryEntryLookup.getOrThrow(ModConfiguredFeatures.AMETHYST_DECEIVER_KEY),
                 mushroomModifiers(2, null));
+        register(context, BLUE_PINKGILL_PLACED_KEY, configuredFeatureRegistryEntryLookup.getOrThrow(ModConfiguredFeatures.BLUE_PINKGILL_KEY),
+                mushroomModifiers(128, null));
+        register(context, WINE_CAP_PLACED_KEY, configuredFeatureRegistryEntryLookup.getOrThrow(ModConfiguredFeatures.BLUE_PINKGILL_KEY),
+                mushroomModifiers(512, null));
+        register(context, PURPLE_BRITTLEGILL_PLACED_KEY, configuredFeatureRegistryEntryLookup.getOrThrow(ModConfiguredFeatures.PURPLE_BRITTLEGILL_KEY),
+                mushroomModifiers(256, null));
     }
 
     public static RegistryKey<PlacedFeature> registerKey(String name) {

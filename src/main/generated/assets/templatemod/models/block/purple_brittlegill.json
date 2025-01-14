@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "templatemod:block/purple_brittlegill"
+  }
+}

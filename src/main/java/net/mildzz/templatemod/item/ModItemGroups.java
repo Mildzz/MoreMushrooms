@@ -27,6 +27,19 @@ public class ModItemGroups {
                         entries.add(ModBlocks.AMETHYST_DECEIVER);
                         entries.add(ModBlocks.AMETHYST_DECEIVER_BLOCK);
                         entries.add(ModBlocks.AMETHYST_DECEIVER_STEM);
+
+                        entries.add(ModBlocks.BLUE_PINKGILL);
+                        entries.add(ModBlocks.BLUE_PINKGILL_BLOCK);
+                        entries.add(ModBlocks.BLUE_PINKGILL_STEM);
+
+                        entries.add(ModBlocks.WINE_CAP);
+                        entries.add(ModBlocks.WINE_CAP_BLOCK);
+
+                        entries.add(ModBlocks.PURPLE_BRITTLEGILL);
+                        entries.add(ModBlocks.PURPLE_BRITTLEGILL_TOP);
+                        entries.add(ModBlocks.PURPLE_BRITTLEGILL_MIDDLE);
+                        entries.add(ModBlocks.PURPLE_BRITTLEGILL_BOTTOM);
+
                     }).build());
 
     public static void registerItemGroups() {

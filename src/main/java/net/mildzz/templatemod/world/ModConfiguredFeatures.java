@@ -16,6 +16,9 @@ public class ModConfiguredFeatures {
     public static final RegistryKey<ConfiguredFeature<?, ?>> PENNY_BUN_KEY = registerKey("penny_bun");
     public static final RegistryKey<ConfiguredFeature<?, ?>> INKY_CAP_KEY = registerKey("inky_cap");
     public static final RegistryKey<ConfiguredFeature<?, ?>> AMETHYST_DECEIVER_KEY = registerKey("amethyst_deceiver");
+    public static final RegistryKey<ConfiguredFeature<?, ?>> BLUE_PINKGILL_KEY = registerKey("blue_pinkgill");
+    public static final RegistryKey<ConfiguredFeature<?, ?>> WINE_CAP_KEY = registerKey("wine_cap");
+    public static final RegistryKey<ConfiguredFeature<?, ?>> PURPLE_BRITTLEGILL_KEY = registerKey("purple_brittlegill");
 
     public static void boostrap(Registerable<ConfiguredFeature<?, ?>> context) {
         register(context, PENNY_BUN_KEY, Feature.HUGE_RED_MUSHROOM, new HugeMushroomFeatureConfig(
@@ -38,6 +41,27 @@ public class ModConfiguredFeatures {
                         ModBlocks.AMETHYST_DECEIVER_STEM.getDefaultState().with(MushroomBlock.UP, Boolean.valueOf(false)).with(MushroomBlock.DOWN, Boolean.valueOf(false))
                 ),
                 3));
+
+        register(context, BLUE_PINKGILL_KEY, Feature.HUGE_BROWN_MUSHROOM, new HugeMushroomFeatureConfig(
+                BlockStateProvider.of(ModBlocks.BLUE_PINKGILL_BLOCK.getDefaultState()),
+                BlockStateProvider.of(
+                        ModBlocks.BLUE_PINKGILL_STEM.getDefaultState().with(MushroomBlock.UP, Boolean.valueOf(false)).with(MushroomBlock.DOWN, Boolean.valueOf(false))
+                ),
+                3));
+
+        register(context, WINE_CAP_KEY, Feature.HUGE_RED_MUSHROOM, new HugeMushroomFeatureConfig(
+                BlockStateProvider.of(ModBlocks.WINE_CAP_BLOCK.getDefaultState().with(MushroomBlock.DOWN, Boolean.valueOf(false))),
+                BlockStateProvider.of(
+                        Blocks.MUSHROOM_STEM.getDefaultState().with(MushroomBlock.UP, Boolean.valueOf(false)).with(MushroomBlock.DOWN, Boolean.valueOf(false))
+                ),
+                2));
+
+        register(context, PURPLE_BRITTLEGILL_KEY, ModFeatures.HUGE_OMBRE_MUSHROOM, new HugeMushroomFeatureConfig(
+                BlockStateProvider.of(ModBlocks.PURPLE_BRITTLEGILL_TOP.getDefaultState().with(MushroomBlock.DOWN, Boolean.valueOf(false))),
+                BlockStateProvider.of(
+                        Blocks.MUSHROOM_STEM.getDefaultState().with(MushroomBlock.UP, Boolean.valueOf(false)).with(MushroomBlock.DOWN, Boolean.valueOf(false))
+                ),
+                2));
     }
 
     public static RegistryKey<ConfiguredFeature<?, ?>> registerKey(String name) {

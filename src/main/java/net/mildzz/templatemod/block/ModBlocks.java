@@ -56,6 +56,8 @@ public class ModBlocks {
     public static final Block INKY_CAP_BLOCK = registerBlock("inky_cap_block",
             new MushroomBlock(FabricBlockSettings.copyOf(Blocks.RED_MUSHROOM_BLOCK).nonOpaque()));
 
+    //  Amethyst Deceiver
+
     public static final Block AMETHYST_DECEIVER = registerBlock("amethyst_deceiver",
             new MushroomPlantBlock(ModConfiguredFeatures.AMETHYST_DECEIVER_KEY,
                     FabricBlockSettings.create()
@@ -77,6 +79,76 @@ public class ModBlocks {
 
     public static final Block AMETHYST_DECEIVER_STEM = registerBlock("amethyst_deceiver_stem",
             new MushroomBlock(FabricBlockSettings.copyOf(Blocks.MUSHROOM_STEM).nonOpaque()));
+
+    //  Blue Pinkgill
+
+    public static final Block BLUE_PINKGILL = registerBlock("blue_pinkgill",
+            new MushroomPlantBlock(ModConfiguredFeatures.BLUE_PINKGILL_KEY,
+                    FabricBlockSettings.create()
+                            .mapColor(MapColor.BLUE)
+                            .noCollision()
+                            .nonOpaque()
+                            .ticksRandomly()
+                            .breakInstantly()
+                            .sounds(BlockSoundGroup.GRASS)
+                            .postProcess(Blocks::always)
+                            .pistonBehavior(PistonBehavior.DESTROY)));
+
+    public static final Block POTTED_BLUE_PINKGILL = Registry.register(Registries.BLOCK,
+            new Identifier(TemplateMod.MOD_ID, "potted_blue_pinkgill"),
+            new FlowerPotBlock(BLUE_PINKGILL, FabricBlockSettings.copyOf(Blocks.POTTED_BROWN_MUSHROOM)));
+
+    public static final Block BLUE_PINKGILL_BLOCK = registerBlock("blue_pinkgill_block",
+            new MushroomBlock(FabricBlockSettings.copyOf(Blocks.BROWN_MUSHROOM_BLOCK).nonOpaque()));
+
+    public static final Block BLUE_PINKGILL_STEM = registerBlock("blue_pinkgill_stem",
+            new MushroomBlock(FabricBlockSettings.copyOf(Blocks.MUSHROOM_STEM).nonOpaque()));
+
+    //  Wine Cap
+
+    public static final Block WINE_CAP = registerBlock("wine_cap",
+            new MushroomPlantBlock(ModConfiguredFeatures.WINE_CAP_KEY,
+                    FabricBlockSettings.create()
+                            .mapColor(MapColor.PALE_PURPLE)
+                            .noCollision()
+                            .nonOpaque()
+                            .ticksRandomly()
+                            .breakInstantly()
+                            .sounds(BlockSoundGroup.GRASS)
+                            .postProcess(Blocks::always)
+                            .pistonBehavior(PistonBehavior.DESTROY)));
+
+    public static final Block POTTED_WINE_CAP = Registry.register(Registries.BLOCK,
+            new Identifier(TemplateMod.MOD_ID, "potted_wine_cap"),
+            new FlowerPotBlock(INKY_CAP, FabricBlockSettings.copyOf(Blocks.POTTED_RED_MUSHROOM)));
+
+    public static final Block WINE_CAP_BLOCK = registerBlock("wine_cap_block",
+            new MushroomBlock(FabricBlockSettings.copyOf(Blocks.RED_MUSHROOM_BLOCK).nonOpaque()));
+
+    public static final Block PURPLE_BRITTLEGILL = registerBlock("purple_brittlegill",
+            new MushroomPlantBlock(ModConfiguredFeatures.PURPLE_BRITTLEGILL_KEY,
+                    FabricBlockSettings.create()
+                            .mapColor(MapColor.DARK_RED)
+                            .noCollision()
+                            .nonOpaque()
+                            .ticksRandomly()
+                            .breakInstantly()
+                            .sounds(BlockSoundGroup.GRASS)
+                            .postProcess(Blocks::always)
+                            .pistonBehavior(PistonBehavior.DESTROY)));
+
+    public static final Block PURPLE_BRITTLEGILL_TOP = registerBlock("purple_brittlegill_top",
+            new MushroomBlock(FabricBlockSettings.copyOf(Blocks.RED_MUSHROOM_BLOCK).nonOpaque()));
+
+    public static final Block PURPLE_BRITTLEGILL_MIDDLE = registerBlock("purple_brittlegill_middle",
+            new MushroomBlock(FabricBlockSettings.copyOf(Blocks.RED_MUSHROOM_BLOCK).nonOpaque()));
+
+    public static final Block PURPLE_BRITTLEGILL_BOTTOM = registerBlock("purple_brittlegill_bottom",
+            new MushroomBlock(FabricBlockSettings.copyOf(Blocks.RED_MUSHROOM_BLOCK).nonOpaque()));
+
+    public static final Block POTTED_PURPLE_BRITTLEGILL = Registry.register(Registries.BLOCK,
+            new Identifier(TemplateMod.MOD_ID, "potted_purple_brittlegill"),
+            new FlowerPotBlock(PURPLE_BRITTLEGILL, FabricBlockSettings.copyOf(Blocks.POTTED_RED_MUSHROOM)));
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
