@@ -1,9 +1,9 @@
 {
 	"schemaVersion": 1,
-	"id": "templatemod",
+	"id": "moremushrooms",
 	"version": "${version}",
-	"name": "Template Mod",
-	"description": "This is the epic Mildzz mod",
+	"name": "More Mushrooms",
+	"description": "This is the epic mushrooms mod",
 	"authors": [
 		"Mildzz"
 	],
@@ -12,21 +12,21 @@
 		"sources": "https://github.com/FabricMC/fabric-example-mod"
 	},
 	"license": "MIT",
-	"icon": "assets/templatemod/icon.png",
+	"icon": "assets/moremushrooms/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"net.mildzz.templatemod.TemplateMod"
+			"net.mildzz.moremushrooms.MoreMushrooms"
 		],
 		"client": [
-			"net.mildzz.templatemod.TemplateModClient"
+			"net.mildzz.moremushrooms.MoreMushroomsClient"
 		],
 		"fabric-datagen": [
-			"net.mildzz.templatemod.TemplateModDataGenerator"
+			"net.mildzz.moremushrooms.MoreMushroomsDataGenerator"
 		]
 	},
 	"mixins": [
-		"templatemod.mixins.json"
+		"moremushrooms.mixins.json"
 	],
 	"depends": {
 		"fabricloader": ">=0.16.9",

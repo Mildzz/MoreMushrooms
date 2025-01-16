@@ -1,0 +1,22 @@
+{
+  "item.moremushrooms.mushroom": "Mushroom",
+
+  "block.moremushrooms.penny_bun": "Penny Bun",
+  "block.moremushrooms.penny_bun_block": "Penny Bun Block",
+  "block.moremushrooms.inky_cap": "Inky Cap",
+  "block.moremushrooms.inky_cap_block": "Inky Cap Block",
+  "block.moremushrooms.amethyst_deceiver": "Amethyst Deceiver",
+  "block.moremushrooms.amethyst_deceiver_block": "Amethyst Deceiver Block",
+  "block.moremushrooms.amethyst_deceiver_stem": "Amethyst Deceiver Stem",
+  "block.moremushrooms.blue_pinkgill": "Blue Pinkgill",
+  "block.moremushrooms.blue_pinkgill_block": "Blue Pinkgill Block",
+  "block.moremushrooms.blue_pinkgill_stem": "Blue Pinkgill Stem",
+  "block.moremushrooms.wine_cap": "Wine Cap",
+  "block.moremushrooms.wine_cap_block": "Wine Cap Block",
+  "block.moremushrooms.purple_brittlegill": "Purple Brittlegill",
+  "block.moremushrooms.purple_brittlegill_top": "Purple Brittlegill Top",
+  "block.moremushrooms.purple_brittlegill_middle": "Purple Brittlegill Middle",
+  "block.moremushrooms.purple_brittlegill_bottom": "Purple Brittlegill Bottom",
+
+  "itemgroup.mushroom": "Mushrooms"
+}

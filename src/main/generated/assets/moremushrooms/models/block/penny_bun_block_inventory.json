@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "moremushrooms:block/penny_bun_block"
+  }
+}
