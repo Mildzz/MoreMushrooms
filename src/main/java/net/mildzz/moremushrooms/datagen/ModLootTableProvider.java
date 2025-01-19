@@ -25,5 +25,16 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addPottedPlantDrops(ModBlocks.POTTED_PURPLE_BRITTLEGILL);
         addDrop(ModBlocks.HONEY_FUNGUS);
         addPottedPlantDrops(ModBlocks.POTTED_HONEY_FUNGUS);
+
+        addDrop(ModBlocks.BLUE_PINKGILL_BLOCK, mushroomBlockDrops(ModBlocks.BLUE_PINKGILL_BLOCK, ModBlocks.BLUE_PINKGILL));
+        addDrop(ModBlocks.PENNY_BUN_BLOCK, mushroomBlockDrops(ModBlocks.PENNY_BUN_BLOCK, ModBlocks.PENNY_BUN));
+        addDrop(ModBlocks.AMETHYST_DECEIVER_BLOCK, mushroomBlockDrops(ModBlocks.AMETHYST_DECEIVER_BLOCK, ModBlocks.AMETHYST_DECEIVER));
+        addDrop(ModBlocks.INKY_CAP_BLOCK, mushroomBlockDrops(ModBlocks.INKY_CAP_BLOCK, ModBlocks.INKY_CAP));
+        addDrop(ModBlocks.WINE_CAP_BLOCK, mushroomBlockDrops(ModBlocks.WINE_CAP_BLOCK, ModBlocks.WINE_CAP));
+        addDrop(ModBlocks.PURPLE_BRITTLEGILL_TOP, mushroomBlockDrops(ModBlocks.PURPLE_BRITTLEGILL_TOP, ModBlocks.PURPLE_BRITTLEGILL));
+        addDrop(ModBlocks.PURPLE_BRITTLEGILL_MIDDLE, mushroomBlockDrops(ModBlocks.PURPLE_BRITTLEGILL_MIDDLE, ModBlocks.PURPLE_BRITTLEGILL));
+        addDrop(ModBlocks.PURPLE_BRITTLEGILL_BOTTOM, mushroomBlockDrops(ModBlocks.PURPLE_BRITTLEGILL_BOTTOM, ModBlocks.PURPLE_BRITTLEGILL));
+        addDropWithSilkTouch(ModBlocks.AMETHYST_DECEIVER_STEM);
+        addDropWithSilkTouch(ModBlocks.BLUE_PINKGILL_STEM);
     }
 }

@@ -15,9 +15,6 @@ import org.jetbrains.annotations.Nullable;
 import java.util.List;
 
 public class ModPlacedFeatures {
-//    public static final RegistryKey<PlacedFeature> RUBY_ORE_PLACED_KEY = registerKey("ruby_ore_placed");
-//    public static final RegistryKey<PlacedFeature> NETHER_RUBY_ORE_PLACED_KEY = registerKey("nether_ruby_ore_placed");
-//    public static final RegistryKey<PlacedFeature> END_RUBY_ORE_PLACED_KEY = registerKey("end_ruby_ore_placed");
 
     public static final RegistryKey<PlacedFeature> PENNY_BUN_PLACED_KEY = registerKey("penny_bun_placed");
     public static final RegistryKey<PlacedFeature> INKY_CAP_PLACED_KEY = registerKey("inky_cap_placed");
@@ -42,15 +39,15 @@ public class ModPlacedFeatures {
 //        register(context, PURPLE_BRITTLEGILL_PLACED_KEY, configuredFeatureRegistryEntryLookup.getOrThrow(ModConfiguredFeatures.PURPLE_BRITTLEGILL_KEY),
 //                mushroomModifiers(512, null));
         register(context, PENNY_BUN_PLACED_KEY, configuredFeatureRegistryEntryLookup.getOrThrow(ModConfiguredFeatures.PENNY_BUN_KEY),
-                mushroomModifiers(128, CountPlacementModifier.of(40), PlacedFeatures.WORLD_SURFACE_WG_HEIGHTMAP));
+                mushroomModifiers(128, CountPlacementModifier.of(64), PlacedFeatures.WORLD_SURFACE_WG_HEIGHTMAP));
         register(context, INKY_CAP_PLACED_KEY, configuredFeatureRegistryEntryLookup.getOrThrow(ModConfiguredFeatures.INKY_CAP_KEY),
-                mushroomModifiers(256, CountPlacementModifier.of(40), PlacedFeatures.WORLD_SURFACE_WG_HEIGHTMAP));
+                mushroomModifiers(256, CountPlacementModifier.of(138), PlacedFeatures.WORLD_SURFACE_WG_HEIGHTMAP));
         register(context, AMETHYST_DECEIVER_PLACED_KEY, configuredFeatureRegistryEntryLookup.getOrThrow(ModConfiguredFeatures.AMETHYST_DECEIVER_KEY),
-                mushroomModifiers(32, CountPlacementModifier.of(40), PlacedFeatures.WORLD_SURFACE_WG_HEIGHTMAP));
+                mushroomModifiers(32, CountPlacementModifier.of(32), PlacedFeatures.WORLD_SURFACE_WG_HEIGHTMAP));
         register(context, BLUE_PINKGILL_PLACED_KEY, configuredFeatureRegistryEntryLookup.getOrThrow(ModConfiguredFeatures.BLUE_PINKGILL_KEY),
-                mushroomModifiers(32, CountPlacementModifier.of(40), PlacedFeatures.WORLD_SURFACE_WG_HEIGHTMAP));
+                mushroomModifiers(32, CountPlacementModifier.of(32), PlacedFeatures.WORLD_SURFACE_WG_HEIGHTMAP));
         register(context, WINE_CAP_PLACED_KEY, configuredFeatureRegistryEntryLookup.getOrThrow(ModConfiguredFeatures.WINE_CAP_KEY),
-                mushroomModifiers(256, CountPlacementModifier.of(40), PlacedFeatures.WORLD_SURFACE_WG_HEIGHTMAP));
+                mushroomModifiers(256, CountPlacementModifier.of(135), PlacedFeatures.WORLD_SURFACE_WG_HEIGHTMAP));
         register(context, PURPLE_BRITTLEGILL_PLACED_KEY, configuredFeatureRegistryEntryLookup.getOrThrow(ModConfiguredFeatures.PURPLE_BRITTLEGILL_KEY),
                 mushroomModifiers(128, CountPlacementModifier.of(40), PlacedFeatures.WORLD_SURFACE_WG_HEIGHTMAP));
 

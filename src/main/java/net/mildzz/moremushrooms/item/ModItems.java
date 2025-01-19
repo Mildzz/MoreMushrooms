@@ -12,10 +12,10 @@ import net.minecraft.util.Identifier;
 
 public class ModItems {
 
-    public static final Item MUSHROOM = registerItem("mushroom", new Item(new FabricItemSettings()));
+//    public static final Item MUSHROOM = registerItem("mushroom", new Item(new FabricItemSettings()));
 
     private static void addItemsToIngredientItemGroup(FabricItemGroupEntries entries) {
-        entries.add(MUSHROOM);
+//        entries.add(MUSHROOM);
     }
 
     private static Item registerItem(String name, Item item) {

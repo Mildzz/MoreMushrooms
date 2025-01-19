@@ -15,8 +15,7 @@ public class ModItemGroups {
     public static final ItemGroup MUSHROOM_GROUP = Registry.register(Registries.ITEM_GROUP,
             new Identifier(MoreMushrooms.MOD_ID, "mushroom"),
             FabricItemGroup.builder().displayName(Text.translatable("itemgroup.mushroom"))
-                    .icon(() -> new ItemStack(ModItems.MUSHROOM)).entries((displayContext, entries) -> {
-                        entries.add(ModItems.MUSHROOM);
+                    .icon(() -> new ItemStack(ModBlocks.PURPLE_BRITTLEGILL)).entries((displayContext, entries) -> {
 
                         entries.add(ModBlocks.PENNY_BUN);
                         entries.add(ModBlocks.PENNY_BUN_BLOCK);
